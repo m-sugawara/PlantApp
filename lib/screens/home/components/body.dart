@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/screens/home/components/header_with_searchbox.dart';
+import 'package:plant_app/screens/home/components/recommends_list.dart';
 import 'package:plant_app/screens/home/components/title_with_more_btn.dart';
 
 class Body extends StatelessWidget {
@@ -16,6 +17,7 @@ class Body extends StatelessWidget {
             title: "Recommended",
             onPressed: () {},
           ),
+          RecommendsList(),
         ],
       ),
     );
