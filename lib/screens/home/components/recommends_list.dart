@@ -13,7 +13,7 @@ class RecommendsList extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          RecommendPlantCard(
+          RecommendCard(
             icon: Icons.palette_outlined,
             title: "Samantha",
             country: "Russia",
@@ -25,7 +25,7 @@ class RecommendsList extends StatelessWidget {
               );
             },
           ),
-          RecommendPlantCard(
+          RecommendCard(
             icon: Icons.palette_outlined,
             title: "Samantha",
             country: "Russia",
@@ -37,7 +37,7 @@ class RecommendsList extends StatelessWidget {
               );
             },
           ),
-          RecommendPlantCard(
+          RecommendCard(
             icon: Icons.palette_outlined,
             title: "Samantha",
             country: "Russia",
@@ -55,8 +55,8 @@ class RecommendsList extends StatelessWidget {
   }
 }
 
-class RecommendPlantCard extends StatelessWidget {
-  const RecommendPlantCard({
+class RecommendCard extends StatelessWidget {
+  const RecommendCard({
     super.key,
     required this.icon,
     required this.title,
